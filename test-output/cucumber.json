@@ -1,0 +1,126 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-27T10:26:19.953Z",
+        "line": 10,
+        "name": "Sample Mobile app automation",
+        "description": "",
+        "id": "sample-mobile-app-automation;sample-mobile-app-automation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003ctrue\u003e but was:\u003cfalse\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:120)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat stepDefinition.AppStepDefinition.enter_username_as_and_password_as(AppStepDefinition.java:23)\r\n\tat ✽.Enter username as \"percival@gmail.com\" and password as \"123456\"(file:///D:/Frameworks/AppAutomation/src/test/java/features/app.feature:4)\r\n",
+              "duration": 13001400,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "Enter username as \"percival@gmail.com\" and password as \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"percival@gmail.com\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinition.AppStepDefinition.enter_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "stepDefinition.AppStepDefinition.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 991200,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Verify if house image is available",
+            "match": {
+              "location": "stepDefinition.AppStepDefinition.verify_if_house_image_is_available()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-27T10:26:20.052Z",
+        "line": 11,
+        "name": "Sample Mobile app automation",
+        "description": "",
+        "id": "sample-mobile-app-automation;sample-mobile-app-automation;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003ctrue\u003e but was:\u003cfalse\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:120)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat stepDefinition.AppStepDefinition.enter_username_as_and_password_as(AppStepDefinition.java:23)\r\n\tat ✽.Enter username as \"arthur@gmail.com\" and password as \"98765\"(file:///D:/Frameworks/AppAutomation/src/test/java/features/app.feature:4)\r\n",
+              "duration": 1004700,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "Enter username as \"arthur@gmail.com\" and password as \"98765\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"arthur@gmail.com\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"98765\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinition.AppStepDefinition.enter_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "stepDefinition.AppStepDefinition.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Verify if house image is available",
+            "match": {
+              "location": "stepDefinition.AppStepDefinition.verify_if_house_image_is_available()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sample Mobile app automation",
+    "description": "",
+    "id": "sample-mobile-app-automation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/app.feature",
+    "tags": []
+  }
+]

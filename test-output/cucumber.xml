@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.272">
+    <testcase classname="Sample Mobile app automation" name="Sample Mobile app automation" time="0.084">
+        <failure message="expected:&lt;true&gt; but was:&lt;false&gt;" type="java.lang.AssertionError"><![CDATA[Given Enter username as "percival@gmail.com" and password as "123456".......failed
+Then Click on Login Button..................................................skipped
+Then Verify if house image is available.....................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinition.AppStepDefinition.enter_username_as_and_password_as(AppStepDefinition.java:23)
+	at ✽.Enter username as "percival@gmail.com" and password as "123456"(file:///D:/Frameworks/AppAutomation/src/test/java/features/app.feature:4)
+]]></failure>
+    </testcase>
+    <testcase classname="Sample Mobile app automation" name="Sample Mobile app automation 2" time="0.004">
+        <failure message="expected:&lt;true&gt; but was:&lt;false&gt;" type="java.lang.AssertionError"><![CDATA[Given Enter username as "arthur@gmail.com" and password as "98765"..........failed
+Then Click on Login Button..................................................skipped
+Then Verify if house image is available.....................................skipped
+
+StackTrace:
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinition.AppStepDefinition.enter_username_as_and_password_as(AppStepDefinition.java:23)
+	at ✽.Enter username as "arthur@gmail.com" and password as "98765"(file:///D:/Frameworks/AppAutomation/src/test/java/features/app.feature:4)
+]]></failure>
+    </testcase>
+</testsuite>
