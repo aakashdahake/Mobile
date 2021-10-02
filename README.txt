@@ -79,5 +79,3 @@ For example: Feature file is created for Automation demo in which scenario is wr
 This feature file calls step definition file through glue code.
 Then step definition file calls main page file in which all methods are defined.
 
-##### Sarita Dash <br />
-##### 27thAug-2020
